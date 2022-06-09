@@ -2,7 +2,7 @@
 //   Lee, Kenton et al. “End-to-end Neural Coreference Resolution.” EMNLP (2017). 
 //   + BERT
 
-local bert_model = "DeepPavlov/rubert-base-cased"; # sberbank-ai/ruBert-large
+local bert_model = "DeepPavlov/rubert-base-cased"; # or sberbank-ai/ruBert-large
 local max_length = 128;
 local feature_size = 20;
 local max_span_width = 20;
